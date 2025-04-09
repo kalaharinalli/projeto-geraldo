@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odontolegista - Login</title>
+    <link rel="stylesheet" href="../index.css" />
+
+    
+
+  </head>
+  <body>
+    <div class="image-box">
+      <img src="/Imagens/capa.jpg" alt="Login Imagem">
+    </div>
+    <div class="container">
+      <p>Transformando a odontologia pericial <br> com tecnologia de ponta</p>
+      <div class="form-box">
+        <form action= "pages/paginainicial.html" method="get" id="loginForm">
+          
+          <h2>Login</h2>
+          <div class="formul">
+           <select name="cargo" required>
+            <option value="">Selecione o cargo</option>
+            <option value="administrador">Administrador</option>
+            <option value="perito">Perito</option>
+            <option value="assistente">Assistente</option>
+          </select>
+          <input type="number" name="matricula" placeholder="Matrícula" required />
+          <input type="password" name="senha" placeholder="Senha" required /> 
+          <p>Esqueceu a senha? <a href="">Clique Aqui</a></p>
+          
+          </div>
+          
+          
+          <button type="submit" name="entrar">Entrar</button>      
+        </form>
+      </div>
+    </div>
+    
+
+  </body>
+  
+</html>
