@@ -6,16 +6,20 @@
     <title>Odontolegista - Página inicial</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href= "../css/menu.css" />    
+    <link rel="stylesheet" href= "../css/menu.css" /> 
+    <link rel="stylesheet" href= "../css/styles.css" /> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+ 
+
 </head>
   <body>
 
     <div>
         <button type="button" class="btn btn-primary">
-            Notifications <span class="badge text-bg-secondary">4</span>
+            Dados do <span class="badge text-bg-secondary">4</span>
           </button>
     </div>
-    <div>
+    <div class="menu-lateral">
         <ul class="nav flex-column">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Página Inicial</a>
@@ -40,6 +44,99 @@
             </li>
           </ul>
     </div>
+    
+     <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Título</th>
+            <th scope="col">ID</th>
+            <th scope="col">Data</th>
+            <th scope="col">Status</th>
+            <th scope="col">Editar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Arcádia dentária</th>
+            <td>4582</td>
+            <td>23 de Julho de 2024</td>
+            <td>Finalizado</td>
+            <td><i class="bi bi-pen-fill"></i>
+                <i class="bi bi-trash-fill"></i>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Identificação de corpo</th>
+            <td>6874</td>
+            <td>19 de Março de 2025</td>
+            <td>Em Andamento</td>
+            <td>
+                <i class="bi bi-pen-fill"></i>
+                <i class="bi bi-trash-fill"></i>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Processo de Alagoas</th>
+            <td>7319</td>
+            <td>19 de Março de 2025</td>
+            <td>Em Andamento</td>
+            <td>
+                <i class="bi bi-pen-fill"></i>
+                <i class="bi bi-trash-fill"></i>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Processo de Alagoas</th>
+            <td>1546</td>
+            <td>15 de Setembro de 2023</td>
+            <td>Arquivado</td>
+            <td>
+                <i class="bi bi-pen-fill"></i>
+                <i class="bi bi-trash-fill"></i>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Comparação de dente </th>
+            <td>9438</td>
+            <td>8 de Outubro de 2024</td>
+            <td>Arquivado</td>
+            <td>
+                <i class="bi bi-pen-fill"></i>
+                <i class="bi bi-trash-fill"></i>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Dente da Vítima </th>
+            <td>1452</td>
+            <td>5 de Maio de 2024</td>
+            <td>Arquivado</td>
+            <td><i class="bi bi-pen-fill"></i>
+                <i class="bi bi-trash-fill"></i>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>   
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
   </body>
 </html>
